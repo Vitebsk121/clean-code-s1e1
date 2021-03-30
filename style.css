@@ -17,7 +17,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .matrix { 
     text-align: center;
@@ -38,14 +38,14 @@
     display: flex;
 }
 ul { /* использование селектора тега для сброса стилей допустимо правилами задания */
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li, h3 { /* использование селектора тега для сброса стилей допустимо правилами задания */
-    list-style:none;
+    list-style: none;
 }
 input,button{ /* использование селектора тега для сброса стилей допустимо правилами задания */
-    outline:none;
+    outline: none;
 }
 .button {
     background: none;
@@ -142,14 +142,14 @@ input,button{ /* использование селектора тега для �
 
 /* edit task */
 .tasks__item .input-text {
-    display:none
+    display: none
 }
 
 .edit-mode .input-text {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .edit-mode .task-subtitle {
-    display:none;
+    display: none;
 }
