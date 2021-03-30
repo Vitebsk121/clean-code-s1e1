@@ -133,8 +133,8 @@ input,button{ /*использование селектора тега для с
 }
 
 /* completed */
-#completed-tasks .task {
-    text-decoration: line-through;
+.completed-tasks .task {
+    text-decoration: line-through
     color: #888;
 }
 
