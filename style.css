@@ -18,8 +18,11 @@
 }
 
 @media (max-width:768px) {
-.matrix { text-align: center;
-}
+
+  .matrix { 
+    text-align: center;
+  }
+
 }
 .main {
     display: block;
@@ -34,14 +37,14 @@
 .task-wrapper {
     display: flex;
 }
-ul { /*использование селектора тега для сброса стилей допустимо правилами задания*/
+ul { /* использование селектора тега для сброса стилей допустимо правилами задания */
     margin:0;
     padding: 0px;
 }
-li, h3 { /*использование селектора тега для сброса стилей допустимо правилами задания*/
+li, h3 { /* использование селектора тега для сброса стилей допустимо правилами задания */
     list-style:none;
 }
-input,button{ /*использование селектора тега для сброса стилей допустимо правилами задания*/
+input,button{ /* использование селектора тега для сброса стилей допустимо правилами задания */
     outline:none;
 }
 .button {
@@ -99,7 +102,6 @@ input,button{ /*использование селектора тега для с
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
